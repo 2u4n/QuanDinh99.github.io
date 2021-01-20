@@ -1,0 +1,146 @@
+#whole-site {
+  background-color: rgb(24, 24, 24);
+}
+
+.ui.menu {
+  background-color: rgb(24, 24, 24);
+}
+
+#menu {
+  height: 47px;
+  padding: 0px;
+}
+
+#menu-container {
+  font-size: 30px;
+  margin: auto;
+  width: 45%;
+}
+
+.ui.menu {
+  border-bottom: 0 none !important;
+  box-shadow: none;
+}
+
+#container {
+  font-size: 15px;
+  margin: auto;
+  width: 45%;
+}
+
+.content {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#external-links {
+  /* These 2 lines make a div right-aligned */
+  margin-left: auto;
+  margin-right: 0;
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+.link-text {
+  text-decoration: underline;
+  color: #ffdc97;
+}
+
+.link-text:hover {
+  color: #ffdc97;
+}
+
+#desc {
+  float: right;
+}
+
+#about-me {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#avatar {
+  color: rgb(24, 24, 24);
+  width: 80px;
+  border-radius: 50%;
+}
+
+#main-header {
+  color: #ffffff;
+  font-size: 18px;
+  height: 25px;
+  font-family: "Varela Round", sans-serif;
+}
+
+#sub-header {
+  padding-top: 5%;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
+}
+
+#title-home {
+  font-size: 40px;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffb448;
+}
+
+#title-home-in-show {
+  font-size: 25px;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffb448;
+}
+
+#footer-div {
+  height: 100px;
+}
+
+#post {
+  padding-bottom: 70px;
+}
+
+#post-title {
+  color: #ffc784;
+  font-family: "Muli", sans-serif;
+  font-size: 33px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+#post-title-in-show {
+  color: #ffc784;
+  font-family: "Muli", sans-serif;
+  font-size: 50px;
+}
+
+#post-content {
+  color: #ffffff;
+}
+
+#text-separating-dot {
+  color: white;
+}
+
+#date {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#post-subject {
+  font-size: 20px;
+}
+
+#post-show-page {
+  padding-top: 50px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+#post-content-in-show {
+  padding-top: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
