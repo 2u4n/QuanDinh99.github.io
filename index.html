@@ -7,7 +7,7 @@
         <title>Quan's Corner</title>
         <link rel="icon" href="https://i.ibb.co/P6Xf430/corner.png" type="image/png">
         <link rel="stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"> 
-        <link rel="stylesheet" type = "text/css" href="/index.css">
+        <link rel="stylesheet" type = "text/css" href="index.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
         <div class="ui menu">
             <div id="menu-container" class="ui container">
                 <a id="title-home" href="/">
-                    quan's corner
+                    quan's page
                 </a>
                 <div id="external-links">
                     <a class="link-text" target="_blank" href="Quan_Dinh_Resume.pdf">
@@ -28,18 +28,58 @@
                     <span id="text-separating-dot">·</span>
                     <a class="link-text" target="_blank" href="https://github.com/QuanDinh99">
                         github</a>
+                    <span id="text-separating-dot">·</span>
+                    <a class="link-text" target="_blank" href="mailto:dinhhongquan1999@gmail.com">
+                        email</a>
                 </div>
             </div>
         </div>
-        <div class="ui container" id="container">
+        <div id="container">
             <div id="about-me" class="ui header">
-                <img id="avatar" src="https://i.ibb.co/FWXVTqz/IMG-7314.jpg">
                 <div class="content">
-                    <div id="main-header">Welcome to my portfolio 👋</div>
-                    <div id="sub-header">My name is Quan Dinh, a CS junior at UT Dallas. </div>
+                    <div id="main-header">I'm Quan! Welcome to my portfolio 👋</div>
+                    <div id="sub-header">
+                        <div id="bulletpoint">My name is Quan Dinh, a CS junior at <a target="_blank" href="" id="special-text">UT Dallas</a>.</div>
+                        <div id="bulletpoint">I was previously a Software Engineer Intern at <a target="_blank" href="https://www.realpage.com/" id="special-text">RealPage, Inc.</a></div>
+                        <div id="bulletpoint">I won 1st place at HackUTD 2019 in Amazon Alexa category. (<a target="_blank" href="https://devpost.com/software/ask-utd" id="special-text">what we made</a>)</div>
+                        <div id="project-intro"><span id="project-intro">Check out some of my projects.👇 </span><span id="bulletpoint">(Flip the preview for a description)</span></div> 
+                    </div>
                 </div>
             </div>
+            <h2 id="top-project-title">Dear Bess (<a id="special-text" target="_blank" href="https://dearbess.herokuapp.com/">link</a>)</h2>
+            <div class="flip">
+                <div class="front" style="background-image: url(./media/dearbess.gif)"></div>
+                <div class="back">
+                   <p>Website for a Digital Humanities project examining President Truman’s letters to his wife.</p>
+                   <p>This website demonstrates our methods, analysis, and findings about hundreds of President Truman's letters.</p>
+                </div>
+            </div>
+            <h2 id="project-title">AskUTD (<a id="special-text" target="_blank" href="https://devpost.com/software/ask-utd">link</a>)</h2>
+            <div class="flip" id="vertical">
+                <div class="front" style="background-image: url(./media/alexa.gif)"></div>
+                <div class="back">
+                   <p>We made 4 Amazon Alexa skills to assist UTD students:</p>
+                   <ul>
+                       <li>Get live number of available parking spots in each parking structure.</li>
+                       <li>Get location of different school offices.</li>
+                       <li>Get contact number of different school departments.</li>
+                       <li>Get fun fact about UT Dallas!</li>
+                   </ul>
+                </div>
+            </div>
+            <h2 id="project-title">RGB Guess (<a id="special-text" target="_blank" href="https://quandinh99.github.io/guess-rgb-game/">link</a>)</h2>
+            <div class="flip">
+                <div class="front" style="background-image: url(./media/rgb-guess.gif)"></div>
+                <div class="back">
+                   <p>A fun and simple game to practice using RGB code to identify colors.</p>
+                   <p>Inspired by a project from Colt Steele's Udemy full-stack web development course.</p>
+                </div>
+            </div>
+            <div id="footer-div">
+                <div>Thanks for visiting! Come back soon 👋</div>
+                <div id="copyright">© 2021 Quan Dinh.</div>
+            </div>
         </div>
-        <div id="footer-div"></div>
+        <div id="footer"></div>
     </body>
 </html>
